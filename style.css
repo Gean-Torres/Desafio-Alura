@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    display: flex; /*Centraliza o conteúdo da página... em tese...*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+} /*insiste em erro de curly...*/
+
+.container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px; /* Limita a largura máxima para melhor visualização em telas grandes */
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 1em;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+
+#nome-amigo {
+    flex: 1;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em; /* Aumenta o tamanho da fonte para melhor legibilidade */
+}
+
+button {
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+#btn-adicionar {
+    background-color: green;
+}
+
+#btn-adicionar:hover {
+    background-color: lightgreen;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1.5em;
+}
+
+#btn-sortear {
+    background-color: lightblue;
+}
+
+#btn-sortear:hover {
+    background-color: darkblue;
+}
+
+#btn-reiniciar {
+    background-color: orange;
+}
+
+#btn-reiniciar:hover {
+    background-color: red;
+}
+
+h2 {
+    margin-top: 2em;
+    color: #555;
+}
+
+#lista-amigos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em 0;
+}
+
+#lista-amigos li {
+    background-color: lightgray;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#lista-vazia {
+    color: gray;
+    font-style: italic;
+}
+
+.resultado-area {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+
+#resultado {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+}
